@@ -1,0 +1,17 @@
+Read Me
+=======
+
+The Scriptorium is a collection of scripts that can be used for a wide variety
+of tasks and make a users life easier and hopefully free up their time.
+
+Recommended packages you have installed:
+
+* ffmpeg
+* vorbis-tools
+* mpg123
+* flac
+* lame
+
+Note: If you have a missing package that is required by a particular script. You
+      will be informed of this and the script will end so you can install the
+      required package and re-run the script.
