@@ -45,7 +45,7 @@ fi
 printf "\n%b>>> Conversion task is starting. <<<%b\n" "${yellow_text}" \
 "${end_colour_text}"
 
-# Convert audio file (flac) to (mp3).
+# Convert audio file FLAC (flac) to Waveform Audio File Format (wav).
 for in_filename in *.[fF][lL][aA][cC]
 do
     flac -d "$in_filename"
