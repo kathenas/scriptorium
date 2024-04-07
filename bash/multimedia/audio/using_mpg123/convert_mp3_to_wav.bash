@@ -10,6 +10,8 @@
 #
 # License: GPLv3 - See 'LICENSE' in root directory of git repository or
 #          the license at https://www.gnu.org/licenses/gpl-3.0.en.html
+#
+# Copyright is asserted by the author.
 
 # Define some colours for text output.
 red_text='\033[0;31m'
