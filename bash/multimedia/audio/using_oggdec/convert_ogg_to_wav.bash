@@ -42,13 +42,13 @@ then
 fi
 
 # Notify user that conversion task is starting.
-printf "\n%b>>> Conversion task is starting. <<<%b\n" "${yellow_text}" \
+printf "\n%b>>> Conversion task is starting. <<<%b\n\n" "${yellow_text}" \
 "${end_colour_text}"
 
 # Convert audio file Ogg Vorbis (ogg) to Waveform Audio File Format (wav).
 for in_filename in *.[oO][gG][gG]
 do
-    oggdec -d "$in_filename"
+    oggdec "$in_filename"
 done
 
 # Notify user that the task has completed.
