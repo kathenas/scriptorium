@@ -42,7 +42,7 @@ then
     exit
 fi
 
-# Show conversion task is running.
+# Notify user that conversion task is starting
 printf "\n%b>>> Conversion task is running. <<<%b\n\n" "${yellow_text}" \
 "${end_colour_text}"
 
@@ -52,7 +52,7 @@ do
     ffmpeg -i "$in_filename" -c copy -an "no_audio_${in_filename%.*}.mp4"
 done
 
-# Show conversion task has ended.
+# Notify user that the task has completed.
 printf "\n%b>>> Conversion task is complete. <<<%b\n" "${green_text}" \
 "${end_colour_text}"
 
