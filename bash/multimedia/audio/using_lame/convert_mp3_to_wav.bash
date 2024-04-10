@@ -20,7 +20,8 @@ green_text='\033[32m'
 end_colour_text='\033[0m'
 
 # If script run with 'sh', inform to execute directly or invoke with 'bash'.
-if [ ! "$BASH_VERSION" ] ; then
+if ! [ "$BASH_VERSION" ]
+then
     printf "\n%b=== WARNING ===%b\n" "${yellow_text}" "${end_colour_text}"
     printf "\nPlease do not use %bsh%b to run this script %b%s%b. Run directly \
 e.g. %b./%s%b if the script is set executable or use %bbash %s%b instead \
