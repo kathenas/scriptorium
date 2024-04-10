@@ -1,12 +1,17 @@
 #!/bin/bash
 
-# Author: Phil Wyett - philip.wyett@kathenas.org
+# Author: Phil Wyett (kathenas) - philip.wyett@kathenas.org
 #
 # Website: https://kathenas.org
 #
+# Wiki: https://wiki.kathenas.org
+#
 # Buy me a coffee: https://www.buymeacoffee.com/kathenasorg
 #
-# License: GPL3+ - See 'license.txt' in root directory of repository
+# License: GPLv3 - See 'LICENSE' in root directory of git repository or
+#          the license at https://www.gnu.org/licenses/gpl-3.0.en.html
+#
+# Copyright is asserted by the author.
 
 # Define some colours for output text.
 red_text='\033[0;31m'
