@@ -42,7 +42,7 @@ then
     exit
 fi
 
-# Notify user that conversion task is starting
+# Notify user that conversion task is starting.
 printf "\n%b>>> Conversion task is running. <<<%b\n\n" "${yellow_text}" \
 "${end_colour_text}"
 

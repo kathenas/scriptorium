@@ -48,7 +48,7 @@ fi
 # be manipulated to produce a better final production mp4 file for future use, be that on your
 # website or social media etc.
 
-# Notify user that conversion task is starting..
+# Notify user that conversion task is starting.
 printf "\n%b>>> Conversion task is running. <<<%b\n\n" "${yellow_text}" \
 "${end_colour_text}"
 
