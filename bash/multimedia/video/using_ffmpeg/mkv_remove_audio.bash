@@ -49,7 +49,7 @@ printf "\n%b>>> Conversion task is running. <<<%b\n\n" "${yellow_text}" \
 # Remove audio track from mkv file.
 for in_filename in *.[mM][kK][vV]
 do
-    ffmpeg -i "$in_filename" -c copy -an "no_audio_${in_filename%.*}.mp4"
+    ffmpeg -i "$in_filename" -c copy -an "no_audio_${in_filename}"
 done
 
 # Notify user that the task has completed.
