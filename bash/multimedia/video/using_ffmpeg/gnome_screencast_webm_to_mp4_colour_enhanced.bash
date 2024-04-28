@@ -63,7 +63,7 @@ for in_filename in *.[wW][eE][bB][mM]
 do
     ffmpeg -i "$in_filename" \
         -vf eq=gamma="$set_gamma":contrast="$set_contrast":brightness="$set_brightness":saturation="$set_saturation" \
-        -crf 10 \
+        -crf 22 \
         -codec:v libx264 \
         "${in_filename%.*}.mp4"
 done

@@ -53,7 +53,7 @@ set_brightness=0.0
 set_saturation=1.0
 # Constant Rate Factor (CRF) is quality. Value range 0 - 51. 0 is best quality
 # and 51 lowest quality.
-set_crf=20
+set_crf=22
 
 # Convert avi file to mp4.
 for in_filename in *.[aA][vV][iI]
