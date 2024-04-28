@@ -15,3 +15,5 @@ Recommended packages you have installed:
 Note: If you have a missing package that is required by a particular script. You
       will be informed of this and the script will end so you can install the
       required package and re-run the script.
+
+P.S. Pull/Merge requests and/or reporting issues to be resolved are welcome.
