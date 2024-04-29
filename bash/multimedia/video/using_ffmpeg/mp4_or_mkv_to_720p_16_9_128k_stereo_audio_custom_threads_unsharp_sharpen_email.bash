@@ -105,7 +105,7 @@ do
         "WIP_${in_filename%.*}.mp4"
 
     # Remove original file.
-    #rm -f "$in_filename"
+    rm -f "$in_filename"
 
     # Rename converted file to original filename.
     mv -f "WIP_${in_filename%.*}.mp4" "${in_filename%.*}.mp4"
