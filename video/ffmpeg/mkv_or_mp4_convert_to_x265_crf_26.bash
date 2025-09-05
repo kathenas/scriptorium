@@ -45,9 +45,9 @@ printf "\n%b>>> Conversion task is running. <<<%b\n\n" "${yellow_text}" \
 
 # Default (auto) number of threads for 'ffmpeg' is 0.
 #
-# Kathenas default is 16 and works well for background conversion on a modern
+# Kathenas default is 4 and works well for background conversion on a modern
 # Intel Ultra CPU. Change if you wish to the number you require.
-set_threads=16
+set_threads=4
 
 # Set CRF value.
 set_crf=26
