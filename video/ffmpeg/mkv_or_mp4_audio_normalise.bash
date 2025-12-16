@@ -10,6 +10,10 @@
 #
 # Copyright is asserted by the author.
 
+#
+# WARNING: If converting for TV, test that the conversions work on the device.
+#
+
 # Define some colours for text output.
 red_text='\033[0;31m'
 yellow_text='\033[0;33m'
