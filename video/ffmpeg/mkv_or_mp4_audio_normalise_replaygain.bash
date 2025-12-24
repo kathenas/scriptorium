@@ -51,7 +51,7 @@ printf "\n%b>>> Conversion task is running. <<<%b\n\n" "${yellow_text}" \
 for in_filename in *.[mM][pPkK][4vV]
 do
     ffmpeg -i "$in_filename" \
-        -vcodec copy -filter:a "loudnorm=I=-12:LRA=15:tp=-1" \
+        -vcodec copy -af "volume=replaygain=track:replaygain_noclip=0" \
         "audio_norm_${in_filename%.*}.mkv"
     # Remove original input file.
     rm -f "${in_filename%.*}.mkv"
