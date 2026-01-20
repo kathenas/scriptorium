@@ -8,4 +8,4 @@ Please file any bugs on the [Kathenas tracker](https://tracker.kathenas.org/set_
 
 Please consider donating  to the developer via the image link below.
 
-[![Buy Me A Coffee](buy_me_a_coffee.svg)](https://buymeacoffee.com/kathenasorg)
+[![Buy Me A Coffee](buy_me_a_coffee.png)](https://buymeacoffee.com/kathenasorg)
