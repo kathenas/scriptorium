@@ -43,10 +43,10 @@ fi
 printf "\n%b>>> Conversion task is running. <<<%b\n\n" "${yellow_text}" \
 "${end_colour_text}"
 
-# Convert 'mp3' file to a 'wav' file.
-for in_filename in *.[mM][pP][3]
+# Convert 'wav' file to a 'mp3' file.
+for in_filename in *.[wW][aA][vV]]
 do
-    ffmpeg -i "$in_filename" "${in_filename%.*}.wav"
+    ffmpeg -i "$in_filename" -acodec libmp3lame "${in_filename%.*}.mp3"
     # Remove original input file.
     rm -f "$in_filename"
 done
